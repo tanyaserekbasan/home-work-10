@@ -86,8 +86,6 @@ nav ul {
   justify-content: center;
 }
 
-/* !!! */
-
 section p:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -105,14 +103,12 @@ section p:not(:last-child) {
 footer {
   border: 10px solid var(--footer-border-color);
   padding: 10px 0;
-  height: 120px;
 }
 
 address {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-around;
-  height: 80px;
+  gap: 20px;
 }
 
 address a {
@@ -175,6 +171,12 @@ h2 + p {
   border-radius: 4px;
 }
 
+.hobbies-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .hobbies-list li:first-child,
 .hobbies-list li:nth-child(3) {
   text-decoration: underline;
@@ -184,6 +186,13 @@ h2 + p {
 #goals {
   color: var(--goals-color);
   background-color: var(--goals-bg-color);
+}
+
+.goals-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 /* цей селектор має найбільшу специфічність - (1, 2, 1) */
