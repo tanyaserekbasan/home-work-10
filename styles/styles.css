@@ -90,15 +90,10 @@ section p:not(:last-child) {
   margin-bottom: 15px;
 }
 
-.hobbies-list,
+/* .hobbies-list,
 .goals-list {
   padding-left: 20px;
-}
-
-.hobbies-list li:not(:last-child),
-.goals-list li:not(:last-child) {
-  margin-bottom: 6px;
-}
+} */
 
 footer {
   border: 10px solid var(--footer-border-color);
@@ -150,15 +145,15 @@ h2 + p {
   text-align: right;
 }
 
-#about img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
+.photo-wrapper {
+  position: relative;
   margin-bottom: 15px;
 }
 
-.photo-wrapper {
-  position: relative;
+.photo-wrapper img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .photo-title {
